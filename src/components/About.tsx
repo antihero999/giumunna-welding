@@ -2,7 +2,7 @@ import { Clock, Award, DollarSign, Truck } from 'lucide-react';
 import { useInView } from '../hooks/useInView';
 
 const badges = [
-  { icon: Clock, label: 'Long Experience', sub: '20+ years in the craft' },
+  { icon: Clock, label: 'Long Experience', sub: '40+ years in the craft' },
   { icon: Award, label: 'Quality Finish', sub: 'Clean welds, every time' },
   { icon: DollarSign, label: 'Honest Pricing', sub: 'No hidden costs' },
   { icon: Truck, label: 'On-Time Delivery', sub: 'We respect your schedule' },
@@ -31,7 +31,7 @@ export default function About() {
             </div>
             <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-brand/5 border border-brand/20 rounded-lg hidden lg:block" />
             <div className="absolute top-6 -left-6 w-24 h-24 bg-brand rounded-lg flex flex-col items-center justify-center shadow-xl shadow-brand/20 hidden lg:flex">
-              <span className="font-heading font-black text-3xl text-white leading-none">20+</span>
+              <span className="font-heading font-black text-3xl text-white leading-none">40+</span>
               <span className="text-white/80 text-xs font-medium mt-1">Years</span>
             </div>
           </div>
@@ -49,7 +49,7 @@ export default function About() {
             <div className="space-y-5 text-muted leading-relaxed">
               <p>
                 G.I Umunna Ogu Ventures is a family-owned welding and metal fabrication business
-                based in Liberty Estate, Nkwelle, Oyi Local Government Area, Anambra State, Nigeria. For more than two decades, we have been
+                based in Liberty Estate, Nkwelle, Oyi Local Government Area, Anambra State, Nigeria. Founded in 1982, making us one of the longest standing welding businesses in Anambra State, we have been
                 building the structures that hold homes together, protect families, and keep
                 businesses running — one quality weld at a time.
               </p>

@@ -3,13 +3,14 @@ import { ChevronDown, MessageCircle, Phone } from 'lucide-react';
 import { WHATSAPP_URL } from '../lib/constants';
 
 const stats = [
-  { value: '20+', label: 'Years Experience' },
+  { value: '40+', label: 'Years of Experience' },
   { value: '500+', label: 'Projects Completed' },
   { value: '100%', label: 'Satisfaction Guaranteed' },
 ];
 
 export default function Hero() {
   const headingRef = useRef<HTMLHeadingElement>(null);
+  const taglinesRef = useRef<HTMLDivElement>(null);
   const subRef = useRef<HTMLParagraphElement>(null);
   const btnsRef = useRef<HTMLDivElement>(null);
   const statsRef = useRef<HTMLDivElement>(null);
@@ -17,6 +18,7 @@ export default function Hero() {
   useEffect(() => {
     const timers = [
       setTimeout(() => headingRef.current?.classList.add('visible'), 200),
+      setTimeout(() => taglinesRef.current?.classList.add('visible'), 350),
       setTimeout(() => subRef.current?.classList.add('visible'), 500),
       setTimeout(() => btnsRef.current?.classList.add('visible'), 750),
       setTimeout(() => statsRef.current?.classList.add('visible'), 1000),
@@ -50,11 +52,11 @@ export default function Hero() {
           </h1>
 
           {/* Taglines — immediately under the name */}
-          <div className="fade-up mb-8 flex flex-col gap-2">
+          <div ref={taglinesRef} className="fade-up mb-8 flex flex-col gap-2">
             <p className="text-2xl sm:text-4xl font-bold text-brand tracking-wide">
               Welding &amp; Metal Constructions
             </p>
-            <p className="text-lg sm:text-xl font-medium text-muted tracking-wide">
+            <p className="text-lg sm:text-xl font-medium text-cream/70 tracking-wide">
               Experts On Metal Fabrications.
             </p>
           </div>
@@ -64,7 +66,7 @@ export default function Hero() {
           <div className="flex items-center gap-3 mb-5">
             <div className="w-10 h-0.5 bg-brand/40" />
             <span className="text-brand/70 font-semibold text-sm tracking-widest uppercase">
-              Liberty Estate, Nkwelle — Since 2004
+              Liberty Estate, Nkwelle · Est. 1982
             </span>
           </div>
 
@@ -72,7 +74,7 @@ export default function Hero() {
             ref={subRef}
             className="fade-up text-muted text-base sm:text-lg leading-relaxed max-w-2xl mb-10"
           >
-            For over 20 years, G.I Umunna Ogu Ventures has delivered expert welding and metal
+            For over 40 years, G.I Umunna Ogu Ventures has delivered expert welding and metal
             fabrication to homes, businesses, and industries across Nkwelle and Anambra State.
             When quality matters, we are the name people trust.
           </p>

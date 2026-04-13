@@ -29,7 +29,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-muted text-sm leading-relaxed max-w-xs">
-              Expert welding and fabrication — Liberty Estate, Nkwelle, Oyi Local Government Area, Anambra State, Nigeria. Over 20 years of
+              Expert welding and fabrication — Liberty Estate, Nkwelle, Oyi Local Government Area, Anambra State, Nigeria. Over 40 years of
               trusted craftsmanship.
             </p>
           </div>
