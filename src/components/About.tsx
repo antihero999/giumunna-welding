@@ -49,7 +49,7 @@ export default function About() {
             <div className="space-y-5 text-muted leading-relaxed">
               <p>
                 G.I Umunna Ogu Ventures is a family-owned welding and metal fabrication business
-                based in Nkwerre, Onitsha, Anambra State. For more than two decades, we have been
+                based in Liberty Estate, Nkwelle, Oyi Local Government Area, Anambra State, Nigeria. For more than two decades, we have been
                 building the structures that hold homes together, protect families, and keep
                 businesses running — one quality weld at a time.
               </p>

@@ -36,7 +36,7 @@ export default function PrivacyPolicy() {
             </h2>
             <p>
               This privacy policy applies to <span className="text-cream font-medium">G.I Umunna Ogu Ventures</span>,
-              a welding and metal fabrication business located at Nkwerre, Onitsha, Anambra State, Nigeria.
+              a welding and metal fabrication business located at Liberty Estate, Nkwelle, Oyi Local Government Area, Anambra State, Nigeria.
               We operate this website to provide information about our services and allow potential customers
               to reach us.
             </p>

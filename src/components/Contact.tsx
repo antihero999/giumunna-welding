@@ -95,7 +95,7 @@ export default function Contact() {
                 <div className="w-2 h-2 bg-brand rounded-full mt-2 flex-shrink-0" />
                 <div>
                   <div className="text-cream font-medium text-sm">Location</div>
-                  <div className="text-muted text-sm">Nkwerre, Onitsha, Anambra State, Nigeria</div>
+                  <div className="text-muted text-sm">Liberty Estate, Nkwelle, Oyi Local Government Area, Anambra State, Nigeria</div>
                 </div>
               </div>
               <div className="flex items-start gap-3">

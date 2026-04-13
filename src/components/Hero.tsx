@@ -49,20 +49,22 @@ export default function Hero() {
             <span className="text-cream">Ventures</span>
           </h1>
 
-          {/* Tagline — immediately under the name */}
-          <p className="fade-up text-lg sm:text-2xl font-semibold text-brand/80 tracking-wide mb-8 uppercase">
-            Welding &amp; Metal Construction.{' '}
-            <span className="text-muted font-medium normal-case tracking-normal">
-              Experts on Metal Fabrication.
-            </span>
-          </p>
+          {/* Taglines — immediately under the name */}
+          <div className="fade-up mb-8 flex flex-col gap-2">
+            <p className="text-2xl sm:text-4xl font-bold text-brand tracking-wide">
+              Welding &amp; Metal Constructions
+            </p>
+            <p className="text-lg sm:text-xl font-medium text-muted tracking-wide">
+              Experts On Metal Fabrications.
+            </p>
+          </div>
 
           <div className="w-16 h-0.5 bg-brand mb-8 opacity-60" />
 
           <div className="flex items-center gap-3 mb-5">
             <div className="w-10 h-0.5 bg-brand/40" />
             <span className="text-brand/70 font-semibold text-sm tracking-widest uppercase">
-              Nkwerre, Onitsha — Since 2004
+              Liberty Estate, Nkwelle — Since 2004
             </span>
           </div>
 
@@ -71,7 +73,7 @@ export default function Hero() {
             className="fade-up text-muted text-base sm:text-lg leading-relaxed max-w-2xl mb-10"
           >
             For over 20 years, G.I Umunna Ogu Ventures has delivered expert welding and metal
-            fabrication to homes, businesses, and industries across Onitsha and Anambra State.
+            fabrication to homes, businesses, and industries across Nkwelle and Anambra State.
             When quality matters, we are the name people trust.
           </p>
 

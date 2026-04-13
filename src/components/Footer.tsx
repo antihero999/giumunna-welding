@@ -29,7 +29,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-muted text-sm leading-relaxed max-w-xs">
-              Expert welding and fabrication — Nkwerre, Onitsha, Anambra State. Over 20 years of
+              Expert welding and fabrication — Liberty Estate, Nkwelle, Oyi Local Government Area, Anambra State, Nigeria. Over 20 years of
               trusted craftsmanship.
             </p>
           </div>
@@ -61,7 +61,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-brand flex-shrink-0 mt-0.5" />
                 <span className="text-muted text-sm">
-                  Nkwerre, Onitsha, Anambra State, Nigeria
+                  Liberty Estate, Nkwelle, Oyi Local Government Area, Anambra State, Nigeria
                 </span>
               </li>
               <li className="flex items-start gap-3">
@@ -87,7 +87,7 @@ export default function Footer() {
 
         <div className="py-6 border-t border-dark-border flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-muted text-xs">
-            © 2025 G.I Umunna Ogu Ventures. All rights reserved.
+            © 2026 G.I Umunna Ogu Ventures. All rights reserved.
           </p>
           <div className="flex items-center gap-1 text-muted text-xs">
             <Link
